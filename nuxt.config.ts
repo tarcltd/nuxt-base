@@ -2,7 +2,7 @@
 import { fileURLToPath } from 'node:url'
 
 export default defineNuxtConfig({
-  modules: ['@nuxt/eslint', '@nuxt/test-utils', '@vueuse/nuxt', 'magic-regexp/nuxt', '@pinia/nuxt', '@nuxt/image', '@nuxt/ui'],
+  modules: ['@nuxt/eslint', '@nuxt/test-utils/module', '@vueuse/nuxt', 'magic-regexp/nuxt', '@pinia/nuxt', '@nuxt/image', '@nuxt/ui'],
   $meta: {
     name: 'base',
   },
