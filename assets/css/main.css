@@ -1,0 +1,90 @@
+@import "tailwindcss";
+@import "@nuxt/ui";
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("/fonts/Montserrat-VariableFont_wght.ttf") format("truetype");
+  font-weight: 100 900;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Splash Script";
+  src: url("/fonts/Splash-Script.ttf") format("truetype");
+  font-display: swap;
+}
+
+@theme static {
+  --font-sans: "Montserrat", sans-serif;
+  --font-splash: "Splash Script", cursive;
+
+  --color-blue-50: #ebf3fa;
+  --color-blue-100: #daeaf6;
+  --color-blue-200: #b6d5ed;
+  --color-blue-300: #8dbde2;
+  --color-blue-400: #68a8d9;
+  --color-blue-500: #4394d0;
+  --color-blue-600: #2c76af;
+  --color-blue-700: #215883;
+  --color-blue-800: #163d5a;
+  --color-blue-900: #0b1e2d;
+  --color-blue-950: #050e14;
+
+  --color-slate-50: #ecf0f4;
+  --color-slate-100: #dbe4eb;
+  --color-slate-200: #b8c9d6;
+  --color-slate-300: #94aec2;
+  --color-slate-400: #7093ad;
+  --color-slate-500: #537691;
+  --color-slate-600: #435f75;
+  --color-slate-700: #324758;
+  --color-slate-800: #21303a;
+  --color-slate-900: #11181d;
+  --color-slate-950: #070b0d;
+
+  --color-gray-50: #ebedef;
+  --color-gray-100: #d8dcdf;
+  --color-gray-200: #b0b8bf;
+  --color-gray-300: #89959f;
+  --color-gray-400: #636e79;
+  --color-gray-500: #434b52;
+  --color-gray-600: #353b41;
+  --color-gray-700: #292e33;
+  --color-gray-800: #1c1f22;
+  --color-gray-900: #0e0f11;
+  --color-gray-950: #070808;
+
+  --color-gold-50: #faf4eb;
+  --color-gold-100: #f6ebda;
+  --color-gold-200: #edd7b5;
+  --color-gold-300: #e3c08c;
+  --color-gold-400: #daac67;
+  --color-gold-500: #d19843;
+  --color-gold-600: #b07b2b;
+  --color-gold-700: #835c20;
+  --color-gold-800: #5a3f16;
+  --color-gold-900: #2d1f0b;
+  --color-gold-950: #140e05;
+
+  --color-brown-50: #edebe8;
+  --color-brown-100: #dbd7d2;
+  --color-brown-200: #b4ada2;
+  --color-brown-300: #908574;
+  --color-brown-400: #60594d;
+  --color-brown-500: #332f29;
+  --color-brown-600: #282420;
+  --color-brown-700: #1f1d19;
+  --color-brown-800: #141210;
+  --color-brown-900: #0b0a09;
+  --color-brown-950: #060505;
+}
+
+:root {
+  --ui-text: var(--color-brown-950);
+  --ui-bg: white;
+}
+
+.dark {
+  --ui-text: white;
+  --ui-bg: var(--color-brown-950);
+}
