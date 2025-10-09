@@ -4,9 +4,10 @@
     aria-label="TARC text logo"
     viewBox="0 0 667.71 100"
     xmlns="http://www.w3.org/2000/svg"
+    class="fill-brown-500 dark:fill-white"
   >
     <title>TARC</title>
-    <g class="fill-brown-500 dark:fill-white">
+    <g>
       <path
         d="M0,40V0h159.86v40l-37.29-5.14v-14.57h-24v79.71h-37.29V20.29h-24v14.57L0,40Z"
       />

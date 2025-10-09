@@ -21,6 +21,7 @@ export default defineNuxtConfig({
   colorMode: {
     storageKey: 'tarc-color-mode',
   },
+  sourcemap: true,
   experimental: {
     checkOutdatedBuildInterval: 60_000,
   },
