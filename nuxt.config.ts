@@ -30,7 +30,7 @@ export default defineNuxtConfig({
   eslint: {
     checker: true,
     config: {
-      rootDir: fileURLToPath(new URL('.', import.meta.url)),
+      autoInit: false,
       stylistic: {
         braceStyle: '1tbs',
         quotes: 'single',
