@@ -1,4 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+import { fileURLToPath } from 'node:url'
+
 export default defineNuxtConfig({
   modules: [
     '@nuxt/eslint',
@@ -13,6 +15,9 @@ export default defineNuxtConfig({
     name: 'base',
   },
   devtools: { enabled: true, telemetry: false },
+  css: [
+    fileURLToPath(new URL('./assets/css/main.css', import.meta.url)),
+  ],
   colorMode: {
     storageKey: 'tarc-color-mode',
   },
