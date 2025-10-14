@@ -1,5 +1,6 @@
 @import "tailwindcss";
 @import "@nuxt/ui";
+@source "../../components";
 
 @font-face {
   font-family: "Montserrat";
