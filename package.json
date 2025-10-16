@@ -12,6 +12,7 @@
     "lint": "eslint ."
   },
   "dependencies": {
+    "@clerk/themes": "^2.4.27",
     "@iconify-json/heroicons": "^1.2.3",
     "@nuxt/eslint": "^1.9.0",
     "@nuxt/image": "^1.11.0",
@@ -33,11 +34,11 @@
     "vite-plugin-eslint2": "^5.0.4",
     "vitest": "^3.2.4",
     "vue": "^3.5.22",
-    "vue-router": "^4.5.1",
+    "vue-router": "^4.6.3",
     "zod": "^4.1.12"
   },
   "devDependencies": {
-    "@types/node": "^24.7.0",
+    "@types/node": "^24.8.0",
     "typescript": "^5.9.3"
   }
 }
