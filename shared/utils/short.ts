@@ -1,1 +1,3 @@
-export { default as short } from 'short-uuid'
+import short from 'short-uuid'
+
+export default short
