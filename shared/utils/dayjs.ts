@@ -1,11 +1,11 @@
-import dayjs from 'dayjs/esm'
-import relativeTime from 'dayjs/esm/plugin/relativeTime'
-import utc from 'dayjs/esm/plugin/utc'
-import timezone from 'dayjs/esm/plugin/timezone'
-import isBetween from 'dayjs/esm/plugin/isBetween'
-import isSameOrBefore from 'dayjs/esm/plugin/isSameOrBefore'
-import isSameOrAfter from 'dayjs/esm/plugin/isSameOrAfter'
-import isToday from 'dayjs/esm/plugin/isToday'
+import * as dayjs from 'dayjs'
+import * as relativeTime from 'dayjs/plugin/relativeTime'
+import * as utc from 'dayjs/plugin/utc'
+import * as timezone from 'dayjs/plugin/timezone'
+import * as isBetween from 'dayjs/plugin/isBetween'
+import * as isSameOrBefore from 'dayjs/plugin/isSameOrBefore'
+import * as isSameOrAfter from 'dayjs/plugin/isSameOrAfter'
+import * as isToday from 'dayjs/plugin/isToday'
 
 dayjs.extend(relativeTime)
 dayjs.extend(utc)
