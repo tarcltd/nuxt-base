@@ -8,8 +8,10 @@ export default defineNuxtConfig({
     '@vueuse/nuxt',
     'magic-regexp/nuxt',
     '@pinia/nuxt',
+    '@pinia/colada-nuxt',
     '@nuxt/image',
     '@nuxt/ui',
+    'motion-v/nuxt',
   ],
   $meta: {
     name: 'base',
