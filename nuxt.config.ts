@@ -26,6 +26,13 @@ export default defineNuxtConfig({
   alias: {
     '@clerk/themes': '@clerk/themes',
     'dayjs': 'dayjs',
+    'dayjs/plugin/relativeTime': 'dayjs/plugin/relativeTime',
+    'dayjs/plugin/utc': 'dayjs/plugin/utc',
+    'dayjs/plugin/timezone': 'dayjs/plugin/timezone',
+    'dayjs/plugin/isBetween': 'dayjs/plugin/isBetween',
+    'dayjs/plugin/isSameOrBefore': 'dayjs/plugin/isSameOrBefore',
+    'dayjs/plugin/isSameOrAfter': 'dayjs/plugin/isSameOrAfter',
+    'dayjs/plugin/isToday': 'dayjs/plugin/isToday',
     'deepmerge': 'deepmerge',
     'fast-equals': 'fast-equals',
     'scule': 'scule',
