@@ -1,4 +1,3 @@
-// npm i dayjs
 import dayjs from 'dayjs'
 import relativeTime from 'dayjs/plugin/relativeTime'
 import utc from 'dayjs/plugin/utc'
@@ -16,4 +15,4 @@ dayjs.extend(isSameOrBefore)
 dayjs.extend(isSameOrAfter)
 dayjs.extend(isToday)
 
-export { dayjs }
+export default dayjs

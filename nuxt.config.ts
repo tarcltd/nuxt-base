@@ -23,6 +23,15 @@ export default defineNuxtConfig({
   colorMode: {
     storageKey: 'tarc-color-mode',
   },
+  alias: {
+    '@clerk/themes': '@clerk/themes',
+    'dayjs': 'dayjs',
+    'fast-equals': 'fast-equals',
+    'scule': 'scule',
+    'short-uuid': 'short-uuid',
+    'uuid': 'uuid',
+    'zod': 'zod',
+  },
   sourcemap: true,
   experimental: {
     checkOutdatedBuildInterval: 60_000,

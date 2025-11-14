@@ -1,4 +1,3 @@
-// npm i scule
 export {
   snakeCase,
   pascalCase,
