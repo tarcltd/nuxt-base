@@ -25,7 +25,9 @@ export default defineNuxtConfig({
   },
   alias: {
     '@clerk/themes': '@clerk/themes',
+    '@nuxt/ui': '@nuxt/ui',
     'dayjs': 'dayjs',
+    'deepmerge': 'deepmerge',
     'fast-equals': 'fast-equals',
     'scule': 'scule',
     'short-uuid': 'short-uuid',
