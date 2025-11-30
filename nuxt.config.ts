@@ -11,7 +11,6 @@ export default defineNuxtConfig({
     '@pinia/colada-nuxt',
     '@nuxt/image',
     '@nuxt/ui',
-    'motion-v/nuxt',
   ],
   $meta: {
     name: 'base',
