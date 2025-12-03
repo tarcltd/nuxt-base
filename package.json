@@ -12,7 +12,9 @@
     "lint": "eslint ."
   },
   "dependencies": {
+    "@clerk/nuxt": "^1.13.4",
     "@clerk/themes": "^2.4.40",
+    "@clerk/vue": "^1.17.1",
     "@iconify-json/heroicons": "^1.2.3",
     "@nuxt/eslint": "^1.11.0",
     "@nuxt/image": "^2.0.0",
