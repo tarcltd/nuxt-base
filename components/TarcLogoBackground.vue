@@ -19,7 +19,7 @@ const offsetY = computed(() => (height.value - diagonal.value) / 2 - extra)
 <template>
   <div
     v-if="isMounted"
-    class="fixed pointer-events-none z-0 opacity-5 overflow-hidden -rotate-45 origin-center"
+    class="pointer-events-none fixed z-0 origin-center -rotate-45 overflow-hidden opacity-5"
     :style="{
       width: `${gridWidth}px`,
       height: `${gridHeight}px`,
@@ -28,26 +28,16 @@ const offsetY = computed(() => (height.value - diagonal.value) / 2 - extra)
     }"
   >
     <div
-      class="w-full h-full grid"
+      class="grid h-full w-full"
       :style="{
         gridTemplateColumns: `repeat(${cols}, ${cell}px)`,
         gridTemplateRows: `repeat(${rows}, ${cell}px)`,
         gap: `${gap}px`,
       }"
     >
-      <template
-        v-for="r in rows"
-        :key="`r-${r}`"
-      >
-        <template
-          v-for="c in cols"
-          :key="`c-${c}`"
-        >
-          <TarcLogoText
-            width="100"
-            height="100"
-            class="block"
-          />
+      <template v-for="r in rows" :key="`r-${r}`">
+        <template v-for="c in cols" :key="`c-${c}`">
+          <TarcLogoText width="100" height="100" class="block" />
         </template>
       </template>
     </div>

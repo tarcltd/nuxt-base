@@ -18,15 +18,13 @@ export default defineNuxtConfig({
     name: 'base',
   },
   devtools: { enabled: true, telemetry: false },
-  css: [
-    fileURLToPath(new URL('./assets/css/main.css', import.meta.url)),
-  ],
+  css: [fileURLToPath(new URL('./assets/css/main.css', import.meta.url))],
   colorMode: {
     storageKey: 'tarc-color-mode',
   },
   alias: {
     '@clerk/themes': '@clerk/themes',
-    'dayjs': 'dayjs',
+    dayjs: 'dayjs',
     'dayjs/plugin/relativeTime': 'dayjs/plugin/relativeTime',
     'dayjs/plugin/utc': 'dayjs/plugin/utc',
     'dayjs/plugin/timezone': 'dayjs/plugin/timezone',
@@ -34,12 +32,12 @@ export default defineNuxtConfig({
     'dayjs/plugin/isSameOrBefore': 'dayjs/plugin/isSameOrBefore',
     'dayjs/plugin/isSameOrAfter': 'dayjs/plugin/isSameOrAfter',
     'dayjs/plugin/isToday': 'dayjs/plugin/isToday',
-    'deepmerge': 'deepmerge',
+    deepmerge: 'deepmerge',
     'fast-equals': 'fast-equals',
-    'scule': 'scule',
+    scule: 'scule',
     'short-uuid': 'short-uuid',
-    'uuid': 'uuid',
-    'zod': 'zod',
+    uuid: 'uuid',
+    zod: 'zod',
   },
   sourcemap: true,
   experimental: {
@@ -51,15 +49,11 @@ export default defineNuxtConfig({
     checker: true,
     config: {
       autoInit: false,
-      stylistic: {
-        braceStyle: '1tbs',
-        quotes: 'single',
-        indent: 2,
-        semi: false,
-      },
+      stylistic: false,
       tooling: {
         regexp: true,
         jsdoc: true,
+        unicorn: false,
       },
     },
   },

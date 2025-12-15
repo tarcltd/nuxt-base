@@ -1,4 +1,4 @@
-import withNuxt from './.playground/.nuxt/eslint.config.mjs'
+import withNuxt from './.nuxt/eslint.config.mjs'
 import eslintPluginBetterTailwindCss from 'eslint-plugin-better-tailwindcss'
 import eslintPluginPrettier from 'eslint-plugin-prettier'
 
@@ -19,7 +19,7 @@ export default withNuxt([
     },
     settings: {
       'better-tailwindcss': {
-        entryPoint: 'assets/css/main.css',
+        entryPoint: 'app/assets/css/main.css',
       },
     },
   },

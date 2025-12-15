@@ -43,7 +43,7 @@ export const useClerkThemeStore = defineStore('clerk:theme', () => {
   const themeStore = useThemeStore()
 
   return {
-    key: computed(() => themeStore.isDark ? 'dark' : 'light'),
-    appearance: computed(() => themeStore.isDark ? theme.dark : theme.light),
+    key: computed(() => (themeStore.isDark ? 'dark' : 'light')),
+    appearance: computed(() => (themeStore.isDark ? theme.dark : theme.light)),
   }
 })
